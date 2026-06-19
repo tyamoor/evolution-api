@@ -1,1 +1,2 @@
-web: npm run db:deploy && npm run start:prod
+web: npm run start:prod
+release: npm run db:deploy
