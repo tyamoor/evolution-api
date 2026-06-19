@@ -1,2 +1,1 @@
-web: npm run start:prod
-release: npm run db:deploy
+web: SERVER_PORT=$PORT npm run start:prod
